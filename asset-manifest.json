@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/github.io/quicksell/static/css/main.fb290709.css",
+    "main.js": "/github.io/quicksell/static/js/main.4adbd3d9.js",
+    "static/media/profileImg.jpg": "/github.io/quicksell/static/media/profileImg.1f5b680bba1542f76084.jpg",
+    "index.html": "/github.io/quicksell/index.html",
+    "main.fb290709.css.map": "/github.io/quicksell/static/css/main.fb290709.css.map",
+    "main.4adbd3d9.js.map": "/github.io/quicksell/static/js/main.4adbd3d9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb290709.css",
+    "static/js/main.4adbd3d9.js"
+  ]
+}
