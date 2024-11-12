@@ -1,0 +1,73 @@
+.cardContainer {
+    width: 100%;
+    border: 1px solid rgb(214, 213, 213);
+    color: #000000;
+    font-style: bold;
+    border-radius: 10px;
+    background: white;
+    font-size: 13px;
+    padding: 3%;
+
+    box-shadow: #f4f5f8;
+}
+
+.cardContainer>* {
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 12px;
+    width: 100%;
+}
+
+.imageWrapper {
+    position: relative;
+    display: inline-block; /* Ensure it wraps tightly around .imageContainer */
+}
+
+.imageContainer {
+    height: 25px;
+    width: 25px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.imageContainer img{
+    height: 100%;
+}
+
+.showStatus {
+    position: absolute;
+    background: rgb(34, 255, 1);
+    border-radius: 50%;
+    right: -2px;
+    bottom: -2px;
+    width: 12px;
+    height: 12px;
+    border: 2px solid white;
+}
+
+.tags {
+    width: max-content;
+    font-size: 12px;
+    border-radius: 5px;
+    border: 1px solid #f4f5f8;
+    color: #7d7d7d;
+    padding: 2px 2px;
+}
+
+.cardTags {
+    align-items: center;
+    font-size: smaller;
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    /* Allow tags to wrap to the next line on smaller screens */
+}
+
+@media only screen and (max-width: 600px) {
+    .cardContainer {
+        padding: 5%;
+        /* Adjusted padding for larger screens */
+    }
+}
